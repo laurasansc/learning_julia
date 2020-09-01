@@ -1,0 +1,94 @@
+ID   ACH4_CHICK     STANDARD;      PRT;   622 AA.
+AC   P09482;
+DT   01-MAR-1989 (Rel. 10, Created)
+DT   01-MAR-1989 (Rel. 10, Last sequence update)
+DT   15-MAR-2004 (Rel. 43, Last annotation update)
+DE   Neuronal acetylcholine receptor protein, alpha-4 chain precursor.
+GN   CHRNA4.
+OS   Gallus gallus (Chicken).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Archosauria; Aves; Neognathae; Galliformes; Phasianidae; Phasianinae;
+OC   Gallus.
+OX   NCBI_TaxID=9031;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   TISSUE=Brain;
+RX   MEDLINE=88283624; PubMed=3267226;
+RA   Nef P., Oneyser C., Alliod C., Couturier S., Ballivet M.;
+RT   "Genes expressed in the brain define three distinct neuronal
+RT   nicotinic acetylcholine receptors.";
+RL   EMBO J. 7:595-601(1988).
+RN   [2]
+RP   MUTAGENESIS OF GLU-289, AND SUBUNITS.
+RX   MEDLINE=91172320; PubMed=2005979;
+RA   Cooper E., Couturier S., Ballivet M.;
+RT   "Pentameric structure and subunit stoichiometry of a neuronal
+RT   nicotinic acetylcholine receptor.";
+RL   Nature 350:235-238(1991).
+CC   -!- FUNCTION: After binding acetylcholine, the AChR responds by an
+CC       extensive change in conformation that affects all subunits and
+CC       leads to opening of an ion-conducting channel across the plasma
+CC       membrane.
+CC   -!- SUBUNIT: Neuronal AChR seems to be composed of two different type
+CC       of subunits: alpha and non-alpha (also called beta). A functional
+CC       receptor seems to consist of two alpha-chains and three non-alpha
+CC       chains.
+CC   -!- SUBCELLULAR LOCATION: Integral membrane protein.
+CC   -!- SIMILARITY: Belongs to the ligand-gated ionic channel (TC 1.A.9)
+CC       family.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; X07348; CAA30285.1; -.
+DR   EMBL; X07349; CAA30285.1; JOINED.
+DR   EMBL; X07350; CAA30285.1; JOINED.
+DR   EMBL; X07351; CAA30285.1; JOINED.
+DR   EMBL; X07352; CAA30285.1; JOINED.
+DR   EMBL; X07399; CAA30285.1; JOINED.
+DR   EMBL; AJ250361; CAB59626.1; -.
+DR   PIR; S00379; ACCH4N.
+DR   InterPro; IPR006029; Neu_channel_memb.
+DR   InterPro; IPR006202; Neur_chan_LBD.
+DR   InterPro; IPR006201; Neur_channel.
+DR   Pfam; PF02931; Neur_chan_LBD; 1.
+DR   Pfam; PF02932; Neur_chan_memb; 1.
+DR   PRINTS; PR00252; NRIONCHANNEL.
+DR   TIGRFAMs; TIGR00860; LIC; 1.
+DR   PROSITE; PS00236; NEUROTR_ION_CHANNEL; 1.
+KW   Postsynaptic membrane; Ionic channel; Glycoprotein; Signal;
+KW   Transmembrane; Multigene family.
+FT   SIGNAL        1     23
+FT   CHAIN        24    622       Neuronal acetylcholine receptor protein,
+FT                                alpha-4 chain.
+FT   DOMAIN       24    237       Extracellular.
+FT   TRANSMEM    238    262
+FT   TRANSMEM    270    288
+FT   TRANSMEM    304    325
+FT   DOMAIN      326    595       Cytoplasmic.
+FT   TRANSMEM    596    614
+FT   DISULFID    156    170       By similarity.
+FT   DISULFID    220    221       Associated with receptor activation (By
+FT                                similarity).
+FT   CARBOHYD     52     52       N-linked (GlcNAc...) (Potential).
+FT   CARBOHYD    102    102       N-linked (GlcNAc...) (Potential).
+FT   MUTAGEN     289    289       E->K: REDUCES CHANNEL CONDUCTANCE BY
+FT                                HALF.
+SQ   SEQUENCE   622 AA;  70837 MW;  290B035893D6485A CRC64;
+     MGFLVSKGNL LLLLCASIFP AFGHVETRAH AEERLLKKLF SGYNKWSRPV ANISDVVLVR
+     FGLSIAQLID VDEKNQMMTT NVWVKQEWHD YKLRWDPQEY ENVTSIRIPS ELIWRPDIVL
+     YNNADGDFAV THLTKAHLFY DGRIKWMPPA IYKSSCSIDV TFFPFDQQNC KMKFGSWTYD
+     KAKIDLVSMH SHVDQLDYWE SGEWVIINAV GNYNSKKYEC CTEIYPDITY SFIIRRLPLF
+     YTINLIIPCL LISCLTVLVF YLPSECGEKI TLCISVLLSL TVFLLLITEI IPSTSLVIPL
+     IGEYLLFTMI FVTLSIIITV FVLNVHHRSP RTHTMPDWVR RVFLDIVPRL LFMKRPSTVK
+     DNCKKLIESM HKLTNSPRLW SETDMEPNFT TSSSPSPQSN EPSPTSSFCA HLEEPAKPMC
+     KSPSGQYSML HPEPPQVTCS SPKPSCHPLS DTQTTSISKG RSLSVQQMYS PNKTEEGSIR
+     CRSRSIQYCY LQEDSSQTNG HSSASPASQR CHLNEEQPQH KPHQCKCKCR KGEAAGTPTQ
+     GSKSHSNKGE HLVLMSPALK LAVEGVHYIA DHLRAEDADF SVKEDWKYVA MVIDRIFLWM
+     FIIVCLLGTV GLFLPPWLAG MI
+//

@@ -1,0 +1,124 @@
+ID   AGI_URTDI      STANDARD;      PRT;   372 AA.
+AC   P11218;
+DT   01-JUL-1989 (Rel. 11, Created)
+DT   01-DEC-1992 (Rel. 24, Last sequence update)
+DT   15-MAR-2004 (Rel. 43, Last annotation update)
+DE   Lectin/endochitinase precursor (EC 3.2.1.14) (Agglutinin) (UDA).
+GN   UDA1.
+OS   Urtica dioica (Great nettle) (Stinging nettle).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicots; rosids;
+OC   eurosids I; Rosales; Urticaceae; Urtica.
+OX   NCBI_TaxID=3501;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RX   MEDLINE=92283806; PubMed=1375935;
+RA   Lerner D.R., Raikhel N.V.;
+RT   "The gene for stinging nettle lectin (Urtica dioica agglutinin)
+RT   encodes both a lectin and a chitinase.";
+RL   J. Biol. Chem. 267:11085-11091(1992).
+RN   [2]
+RP   ERRATUM.
+RX   MEDLINE=93054574; PubMed=1429618;
+RA   Lerner D.R., Raikhel N.V.;
+RL   J. Biol. Chem. 267:22694-22694(1992).
+RN   [3]
+RP   SEQUENCE OF 24-112.
+RX   MEDLINE=92183920; PubMed=1544484;
+RA   Beintema J.J., Peumans W.J.;
+RT   "The primary structure of stinging nettle (Urtica dioica) agglutinin.
+RT   A two-domain member of the hevein family.";
+RL   FEBS Lett. 299:131-134(1992).
+RN   [4]
+RP   PRELIMINARY SEQUENCE OF 24-54.
+RA   Chapot M.-P., Peumans W.J., Strosberg A.D.;
+RT   "Extensive homologies between lectins from non-leguminous plants.";
+RL   FEBS Lett. 195:231-234(1986).
+CC   -!- FUNCTION: This protein functions both as a chitinase and as a
+CC       N-acetyl-D-glucosamine binding lectin. It inhibits the growth of
+CC       several phytopathogenic chitin-containing fungi. Possesses also
+CC       insecticidal activity.
+CC   -!- CATALYTIC ACTIVITY: Hydrolysis of the 1,4-beta-linkages of N-
+CC       acetyl-D-glucosamine polymers of chitin.
+CC   -!- TISSUE SPECIFICITY: Rhizomes and inflorescence with immature
+CC       seeds.
+CC   -!- PTM: Proteolytically processed to yield a very small protein (8.5
+CC       kDa, 86 AA) containing only the two chitin-binding domains.
+CC   -!- SIMILARITY: Contains 2 chitin-binding type-1 domains.
+CC   -!- SIMILARITY: Contains 2 chitin-binding domains.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; M87302; AAA34219.1; -.
+DR   PIR; A44298; A42778.
+DR   PDB; 1EN2; 21-JUN-00.
+DR   PDB; 1ENM; 21-JUN-00.
+DR   PDB; 1IQB; 14-JAN-03.
+DR   InterPro; IPR001002; Chitin_binding_1.
+DR   InterPro; IPR000726; Glyco_hydro_19.
+DR   Pfam; PF00187; Chitin_bind_1; 2.
+DR   Pfam; PF00182; Glyco_hydro_19; 1.
+DR   ProDom; PD354900; Glyco_hydro_19; 1.
+DR   SMART; SM00270; ChtBD1; 2.
+DR   PROSITE; PS00773; CHITINASE_19_1; 1.
+DR   PROSITE; PS00774; CHITINASE_19_2; 1.
+DR   PROSITE; PS00026; CHIT_BIND_I_1; 2.
+DR   PROSITE; PS50941; CHIT_BIND_I_2; 2.
+KW   Plant defense; Hydrolase; Glycosidase; Chitin degradation;
+KW   Chitin-binding; Lectin; Repeat; Fungicide; Signal;
+KW   Pyrrolidone carboxylic acid; 3D-structure.
+FT   SIGNAL        1     23
+FT   CHAIN        24    372       Lectin/endochitinase.
+FT   CHAIN        24    112       Lectin.
+FT   MOD_RES      24     24       PYRROLIDONE CARBOXYLIC ACID.
+FT   DOMAIN       24     64       Chitin-binding type-1 1.
+FT   DOMAIN       69    111       Chitin-binding type-1 2.
+FT   DOMAIN      113    128       Spacer.
+FT   DOMAIN      129    372       CHITINASE.
+FT   DISULFID     26     41       By similarity.
+FT   DISULFID     35     47       By similarity.
+FT   DISULFID     40     54       By similarity.
+FT   DISULFID     58     62       By similarity.
+FT   DISULFID     72     87       By similarity.
+FT   DISULFID     81     93       By similarity.
+FT   DISULFID     86    100       By similarity.
+FT   DISULFID    105    109       By similarity.
+FT   CARBOHYD    123    123       N-linked (GlcNAc...) (Potential).
+FT   STRAND       25     25
+FT   HELIX        27     30
+FT   TURN         31     31
+FT   HELIX        36     38
+FT   STRAND       40     42
+FT   TURN         43     44
+FT   STRAND       46     48
+FT   HELIX        51     54
+FT   TURN         56     57
+FT   STRAND       58     60
+FT   HELIX        63     65
+FT   TURN         68     69
+FT   STRAND       71     71
+FT   HELIX        74     76
+FT   TURN         77     77
+FT   TURN         83     84
+FT   STRAND       86     88
+FT   TURN         89     90
+FT   STRAND       92     94
+FT   HELIX        97    100
+FT   STRAND      102    102
+FT   TURN        103    104
+FT   STRAND      105    107
+SQ   SEQUENCE   372 AA;  40541 MW;  28E9A2312BF08FD2 CRC64;
+     MMMRFLSAVV IMSSAMAVGL VSAQRCGSQG GGGTCPALWC CSIWGWCGDS EPYCGRTCEN
+     KCWSGERSDH RCGAAVGNPP CGQDRCCSVH GWCGGGNDYC SGSKCQYRCS SSVRGPRVAL
+     SGNSTANSIG NVVVTEPLFD QMFSHRKDCP SQGFYSYHSF LVAAESFPAF GTIGDVATRK
+     REVAAFLAHI SQATSGERSD VENPHAWGLC HINTTTVTEN DFCTSSDWPC AAGKKYSPRG
+     PIQLTHNFNY GLAGQAIGED LIQNPDLVEK DPIISFKTAL WFWMSQHDNK PSCHDIVLNA
+     NSAANRIPNK GVIGNIISRA FGHDDFAVRS SSIGFYKRYC DMLGVSYGHD LKYWFDNTPS
+     SEFQRIQMRV AA
+//

@@ -1,0 +1,53 @@
+ID   SP96_DICDI     STANDARD;      PRT;   600 AA.
+AC   P14328;
+DT   01-JAN-1990 (Rel. 13, Created)
+DT   01-JAN-1990 (Rel. 13, Last sequence update)
+DT   01-NOV-1997 (Rel. 35, Last annotation update)
+DE   SPORE COAT PROTEIN SP96.
+GN   COTA.
+OS   Dictyostelium discoideum (Slime mold).
+OC   Eukaryota; Mycetozoa; Dictyosteliida; Dictyostelium.
+OX   NCBI_TaxID=44689;
+RN   [1]
+RP   SEQUENCE FROM N.A.
+RC   STRAIN=AX4;
+RX   MEDLINE=90067962; PubMed=2587278;
+RA   Fosnaugh K., Loomis W.F.;
+RT   "Sequence of the Dictyostelium discoideum spore coat gene SP96.";
+RL   Nucleic Acids Res. 17:9489-9489(1989).
+CC   -!- SUBCELLULAR LOCATION: OUTER LAYER OF THE COAT MATRIX AND
+CC       INTERSPORE MATRIX.
+CC   -!- PTM: PHOSPHORYLATED AND FUCOSYLATED. MAY BE PHOSPHOGLYCOSYLATED,
+CC       MAY CONTAIN GLCNAC-ALPHA-1-P-SER RESIDUES.
+CC   -!- SIMILARITY: CONTAINS 4 PRESPORE MOTIFS.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; X16491; CAA34508.1; -.
+DR   PIR; S07638; S07638.
+DR   DictyDb; DD03007; cotA.
+DR   InterPro; IPR003645; FolN.
+DR   SMART; SM00274; FOLN; 6.
+KW   Glycoprotein; Phosphorylation; Repeat; Sporulation.
+FT   REPEAT      185    197       PRESPORE MOTIF 1.
+FT   REPEAT      221    233       PRESPORE MOTIF 2.
+FT   REPEAT      298    310       PRESPORE MOTIF 3.
+FT   REPEAT      395    407       PRESPORE MOTIF 4.
+SQ   SEQUENCE   600 AA;  59589 MW;  616AE6D02B5F1071 CRC64;
+     MRVLLVLVAC LTYFSGGALA QSCSSYSGDN CPSTCFQGSY DIPCGAQVKY CTEMKDNCGE
+     GGDVKCWKDG SNLPVQTWSS CVPSELFGPN GKFKPSEIPN SSNCPTNCEN GVEWVNLCGL
+     SCDAKTACCP DVCQCKGGQT SGGSTTGSQT SGGSTSGGST TGSQTSGGST TGSQTSGSQT
+     SAGSCSNTQC PNGFYCQVQG NNAVCVPQQS STSGGHQNDP CDTVQCPYGY SCESRDGFEA
+     KCTRDEDEPT HRPTHRPKPP HDSDKYLCDN VHCPRGYKCN AKNGVAKCIA GYEIPRVCRN
+     IQCPTGYRCE DHNRNPICVL EERENPDNCL TCNDVNCEAS GLVCVMTRAR CKVGAAKCCD
+     VQPTCIKPST IAGSTIASIA STIASTGSTG ATSPCSVAQC PTGYVCVAQN NVAVSLPRPT
+     TTTGSTSDSS ALGSTSESSA SGSSAVSSSA SGSSAASSSP SSSAASSSPS SSAASSSPSS
+     SAASSSPSSS ASSSSSPSSS ASSSSAPSSS ASSSSAPSSS ASSSSASSSS ASSAATTAAT
+     TIATTAATTT ATTTATTATT TATTTATTTA ATIATTTAAT TTATTTATTA TTTATTTATS
+//

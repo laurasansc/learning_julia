@@ -1,0 +1,315 @@
+ID   ASM_HUMAN      STANDARD;      PRT;   629 AA.
+AC   P17405; P17406; Q13811; Q16837; Q16841;
+DT   01-AUG-1990 (Rel. 15, Created)
+DT   16-OCT-2001 (Rel. 40, Last sequence update)
+DT   15-MAR-2004 (Rel. 43, Last annotation update)
+DE   Sphingomyelin phosphodiesterase precursor (EC 3.1.4.12) (Acid
+DE   sphingomyelinase) (aSMase).
+GN   SMPD1 OR ASM.
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Primates; Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   SEQUENCE FROM N.A., AND ALTERNATIVE SPLICING.
+RX   MEDLINE=91217097; PubMed=1840600;
+RA   Schuchman E.H., Suchi M., Takahashi T., Sandhoff K., Desnick R.J.;
+RT   "Human acid sphingomyelinase. Isolation, nucleotide sequence and
+RT   expression of the full-length and alternatively spliced cDNAs.";
+RL   J. Biol. Chem. 266:8531-8539(1991).
+RN   [2]
+RP   SEQUENCE FROM N.A.
+RX   MEDLINE=93183402; PubMed=1292508;
+RA   Newrzella D., Stoffel W.;
+RT   "Molecular cloning of the acid sphingomyelinase of the mouse and the
+RT   organization and complete nucleotide sequence of the gene.";
+RL   Biol. Chem. Hoppe-Seyler 373:1233-1238(1992).
+RN   [3]
+RP   SEQUENCE FROM N.A.
+RX   MEDLINE=92155708; PubMed=1740330;
+RA   Schuchman E.H., Levran O., Pereira L.V., Desnick R.J.;
+RT   "Structural organization and complete nucleotide sequence of the gene
+RT   encoding human acid sphingomyelinase (SMPD1).";
+RL   Genomics 12:197-205(1992).
+RN   [4]
+RP   SEQUENCE FROM N.A., AND VARIANT ARG-157.
+RX   MEDLINE=94012573; PubMed=8407868;
+RA   Ida H., Rennert O.M., Eto Y., Chan W.Y.;
+RT   "Cloning of a human acid sphingomyelinase cDNA with a new mutation
+RT   that renders the enzyme inactive.";
+RL   J. Biochem. 114:15-20(1993).
+RN   [5]
+RP   SEQUENCE OF 128-629 FROM N.A., PARTIAL SEQUENCE, AND
+RP   ALTERNATIVE SPLICING.
+RC   TISSUE=Fibroblast;
+RX   MEDLINE=90060003; PubMed=2555181;
+RA   Quintern L.E., Schuchman E.H., Levran O., Suchi M., Ferlinz K.,
+RA   Reinke H., Sandhoff K., Desnick R.J.;
+RT   "Isolation of cDNA clones encoding human acid sphingomyelinase:
+RT   occurrence of alternatively processed transcripts.";
+RL   EMBO J. 8:2469-2473(1989).
+RN   [6]
+RP   CARBOHYDRATE-LINKAGE SITES.
+RX   MEDLINE=97182640; PubMed=9030779;
+RA   Ferlinz K., Hurwitz R., Moczall H., Lansmann S., Schuchman E.H.,
+RA   Sandhoff K.;
+RT   "Functional characterization of the N-glycosylation sites of human
+RT   acid sphingomyelinase by site-directed mutagenesis.";
+RL   Eur. J. Biochem. 243:511-517(1997).
+RN   [7]
+RP   DISULFIDE BONDS.
+RX   MEDLINE=22518502; PubMed=12631268;
+RA   Lansmann S., Schuette C.G., Bartelsen O., Hoernschemeyer J., Linke T.,
+RA   Weisgerber J., Sandhoff K.;
+RT   "Human acid sphingomyelinase.";
+RL   Eur. J. Biochem. 270:1076-1088(2003).
+RN   [8]
+RP   VARIANT NPA SER-577.
+RX   MEDLINE=92028849; PubMed=1718266;
+RA   Ferlinz K., Hurwitz R., Sandhoff K.;
+RT   "Molecular basis of acid sphingomyelinase deficiency in a patient
+RT   with Niemann-Pick disease type A.";
+RL   Biochem. Biophys. Res. Commun. 179:1187-1191(1991).
+RN   [9]
+RP   VARIANT NPA LEU-496.
+RX   MEDLINE=91219449; PubMed=2023926;
+RA   Levran O., Desnick R.J., Schuchman E.H.;
+RT   "Niemann-Pick disease: a frequent missense mutation in the acid
+RT   sphingomyelinase gene of Ashkenazi Jewish type A and B patients.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 88:3748-3752(1991).
+RN   [10]
+RP   VARIANT NPB ARG-608 DEL.
+RX   MEDLINE=91358737; PubMed=1885770;
+RA   Levran O., Desnick R.J., Schuchman E.H.;
+RT   "Niemann-Pick type B disease. Identification of a single codon
+RT   deletion in the acid sphingomyelinase gene and genotype/phenotype
+RT   correlations in type A and B patients.";
+RL   J. Clin. Invest. 88:806-810(1991).
+RN   [11]
+RP   VARIANT NPA PRO-302.
+RX   MEDLINE=93004773; PubMed=1391960;
+RA   Levran O., Desnick R.J., Schuchman E.H.;
+RT   "Identification and expression of a common missense mutation (L302P)
+RT   in the acid sphingomyelinase gene of Ashkenazi Jewish type A
+RT   Niemann-Pick disease patients.";
+RL   Blood 80:2081-2087(1992).
+RN   [12]
+RP   VARIANT NPB ARG-436.
+RX   MEDLINE=93244834; PubMed=1301192;
+RA   Takahashi T., Desnick R.J., Takada G., Schuchman E.H.;
+RT   "Identification of a missense mutation (S436R) in the acid
+RT   sphingomyelinase gene from a Japanese patient with type B
+RT   Niemann-Pick disease.";
+RL   Hum. Mutat. 1:70-71(1992).
+RN   [13]
+RP   VARIANT NPA ILE-382, AND VARIANTS NPB ARG-242 AND SER-383.
+RX   MEDLINE=92316934; PubMed=1618760;
+RA   Takahashi T., Suchi M., Desnick R.J., Takada G., Schuchman E.H.;
+RT   "Identification and expression of five mutations in the human acid
+RT   sphingomyelinase gene causing types A and B Niemann-Pick disease.
+RT   Molecular evidence for genetic heterogeneity in the neuronopathic and
+RT   non-neuronopathic forms.";
+RL   J. Biol. Chem. 267:12552-12558(1992).
+RN   [14]
+RP   VARIANT NPB GLY-391.
+RX   MEDLINE=94328611; PubMed=8051942;
+RA   Sperl W., Bart G., Vanier M.T., Christomanou H., Baldissera I.,
+RA   Steichensdorf E., Paschke E.;
+RT   "A family with visceral course of Niemann-Pick disease, macular halo
+RT   syndrome and low sphingomyelin degradation rate.";
+RL   J. Inherit. Metab. Dis. 17:93-103(1994).
+RN   [15]
+RP   VARIANT NPA THR-389.
+RX   MEDLINE=96287387; PubMed=8680412;
+RA   Schuchman E.H.;
+RT   "Two new mutations in the acid sphingomyelinase gene causing type A
+RT   Niemann-pick disease: N389T and R441X.";
+RL   Hum. Mutat. 6:352-354(1995).
+RN   [16]
+RP   VARIANT NPA CYS-446.
+RX   MEDLINE=96274768; PubMed=8693491;
+RA   Takahashi T., Suchi M., Sato W., Ten S.B., Sakuragawa N.,
+RA   Desnick R.J., Schuchman E.H., Takada G.;
+RT   "Identification and expression of a missense mutation (Y446C) in the
+RT   acid sphingomyelinase gene from a Japanese patient with type A
+RT   Niemann-Pick disease.";
+RL   Tohoku J. Exp. Med. 177:117-123(1995).
+RN   [17]
+RP   VARIANT NPA GLN-246.
+RX   MEDLINE=96263741; PubMed=8664904;
+RA   Ida H., Rennert O.M., Maekawa K., Eto Y.;
+RT   "Identification of three novel mutations in the acid
+RT   sphingomyelinase gene of Japanese patients with Niemann-Pick disease
+RT   type A and B.";
+RL   Hum. Mutat. 7:65-67(1996).
+RN   [18]
+RP   VARIANT NPB TYR-421.
+RX   MEDLINE=22340429; PubMed=12369017;
+RA   Simonaro C.M., Desnick R.J., McGovern M.M., Wasserstein M.P.,
+RA   Schuchman E.H.;
+RT   "The demographics and distribution of type B Niemann-Pick disease:
+RT   novel mutations lead to new genotype/phenotype correlations.";
+RL   Am. J. Hum. Genet. 71:1413-1419(2002).
+RN   [19]
+RP   VARIANTS NPA ARG-248; TYR-319; SER-463; LEU-475 AND HIS-537, AND
+RP   VARIANTS NPB SER-371 AND ARG-608 DEL.
+RX   MEDLINE=22444008; PubMed=12556236;
+RA   Sikora J., Pavlu-Pereira H., Elleder M., Roelofs H., Wevers R.A.;
+RT   "Seven novel Acid sphingomyelinase gene mutations in Niemann-Pick type
+RT   A and B patients.";
+RL   Ann. Hum. Genet. 67:63-70(2003).
+CC   -!- FUNCTION: Converts sphingomyelin to ceramide. aSM also has
+CC       phospholipase C activities toward 1,2-diacylglycerolphosphocholine
+CC       and 1,2-diacylglycerolphosphoglycerol.
+CC   -!- CATALYTIC ACTIVITY: Sphingomyelin + H(2)O = N-acylsphingosine +
+CC       choline phosphate.
+CC   -!- SUBUNIT: Monomer.
+CC   -!- SUBCELLULAR LOCATION: Lysosomal.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=3;
+CC       Name=1; Synonyms=ASM-1;
+CC         IsoId=P17405-1; Sequence=Displayed;
+CC       Name=2; Synonyms=ASM-2;
+CC         IsoId=P17405-2; Sequence=VSP_000331, VSP_000332;
+CC       Name=3; Synonyms=ASM-3;
+CC         IsoId=P17405-3; Sequence=VSP_000333;
+CC   -!- DISEASE: Defects in SMPD1 are the cause of Niemann-Pick disease
+CC       type A (NPA) [MIM:257200]; also referred to as the classical
+CC       infantile form. Niemann-Pick disease is a clinically and
+CC       genetically heterogeneous recessive disorder. It is caused by the
+CC       accumulation of sphingomyelin and other metabolically related
+CC       lipids in the lysosomes, resulting in neurodegeneration starting
+CC       from early life. Patients may show xanthomas, pigmentation,
+CC       hepatosplenomegaly, lymphadenopathy and mental retardation.
+CC       Niemann-Pick disease occurs more frequently among individuals of
+CC       Ashkenazi Jewish ancestry than in the general population. NPA is
+CC       characterized by very early onset in infancy and a rapidly
+CC       progressive course leading to death by three years.
+CC   -!- DISEASE: Defects in SMPD1 are the cause of Niemann-Pick disease
+CC       type B (NPB) [MIM:607616]; also referred to as the visceral form.
+CC       NPB has little if any neurologic involvement and patients may
+CC       survive into adulthood.
+CC   -!- MISCELLANEOUS: There are two types of sphingomyelinases: ASM
+CC       (acid), and NSM (neutral).
+CC   -!- MISCELLANEOUS: Isoform 1 is the most abundant (90%), isoforms 2
+CC       (10%) and 3 (<1%) are only found at lower levels. Only isoform 1
+CC       is a catalytic active enzyme.
+CC   -!- SIMILARITY: Belongs to the acid sphingomyelinase family.
+CC   -!- SIMILARITY: Contains 1 saposin B-type domain.
+CC   --------------------------------------------------------------------------
+CC   This SWISS-PROT entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use  by  non-profit  institutions as long  as its content  is  in  no  way
+CC   modified and this statement is not removed.  Usage  by  and for commercial
+CC   entities requires a license agreement (See http://www.isb-sib.ch/announce/
+CC   or send an email to license@isb-sib.ch).
+CC   --------------------------------------------------------------------------
+DR   EMBL; M59916; AAA58377.1; -.
+DR   EMBL; M59917; AAA58378.1; -.
+DR   EMBL; X63600; CAA45145.1; -.
+DR   EMBL; X52678; CAA36901.1; -.
+DR   EMBL; X52679; CAA36902.1; -.
+DR   EMBL; M81780; AAA75008.1; -.
+DR   EMBL; M81780; AAA75009.1; -.
+DR   EMBL; X59960; CAA42584.1; -.
+DR   PIR; S06958; S06958.
+DR   PIR; S27009; A39825.
+DR   Genew; HGNC:11120; SMPD1.
+DR   MIM; 607608; -.
+DR   MIM; 257200; -.
+DR   MIM; 607616; -.
+DR   GO; GO:0004767; F:sphingomyelin phosphodiesterase activity; TAS.
+DR   GO; GO:0007399; P:neurogenesis; TAS.
+DR   GO; GO:0007165; P:signal transduction; TAS.
+DR   GO; GO:0006684; P:sphingomyelin metabolism; TAS.
+DR   InterPro; IPR004843; M-ppestrase.
+DR   InterPro; IPR008139; SaposinB.
+DR   Pfam; PF00149; Metallophos; 1.
+DR   SMART; SM00118; SAPB; 1.
+KW   Hydrolase; Glycosidase; Lysosome; Glycoprotein; Alternative splicing;
+KW   Signal; Disease mutation.
+FT   SIGNAL        1     46
+FT   CHAIN        47    629       Sphingomyelin phosphodiesterase.
+FT   DOMAIN       85    169       Saposin-like type B.
+FT   DISULFID    120    131
+FT   DISULFID    221    226
+FT   DISULFID    227    250
+FT   DISULFID    385    431
+FT   DISULFID    584    588
+FT   DISULFID    594    607
+FT   CARBOHYD     86     86       N-linked (GlcNAc...).
+FT   CARBOHYD    175    175       N-linked (GlcNAc...).
+FT   CARBOHYD    335    335       N-linked (GlcNAc...).
+FT   CARBOHYD    395    395       N-linked (GlcNAc...).
+FT   CARBOHYD    520    520       N-linked (GlcNAc...).
+FT   VARSPLIC    363    374       IGGFYALSPYPG -> YLSSVETQEGKR (in isoform
+FT                                2).
+FT                                /FTId=VSP_000331.
+FT   VARSPLIC    375    418       Missing (in isoform 2).
+FT                                /FTId=VSP_000332.
+FT   VARSPLIC    363    418       Missing (in isoform 3).
+FT                                /FTId=VSP_000333.
+FT   VARIANT     157    157       C -> R (Seems to be less active).
+FT                                /FTId=VAR_011387.
+FT   VARIANT     242    242       G -> R (in NPB).
+FT                                /FTId=VAR_005058.
+FT   VARIANT     246    246       E -> Q (in NPA; 30% residual
+FT                                activity).
+FT                                /FTId=VAR_005059.
+FT   VARIANT     248    248       S -> R (in NPA).
+FT                                /FTId=VAR_015287.
+FT   VARIANT     302    302       L -> P (in NPA; in 23% of NPA Ashkenazi
+FT                                Jewish patients).
+FT                                /FTId=VAR_005060.
+FT   VARIANT     319    319       H -> Y (in NPA).
+FT                                /FTId=VAR_015288.
+FT   VARIANT     371    371       P -> S (in NPB).
+FT                                /FTId=VAR_015289.
+FT   VARIANT     382    382       M -> I (in NPA).
+FT                                /FTId=VAR_005061.
+FT   VARIANT     383    383       N -> S (in NPB).
+FT                                /FTId=VAR_005062.
+FT   VARIANT     389    389       N -> T (in NPA).
+FT                                /FTId=VAR_005063.
+FT   VARIANT     391    391       W -> G (in NPB; low sphingomyelin
+FT                                degradation rates).
+FT                                /FTId=VAR_005064.
+FT   VARIANT     421    421       H -> Y (in NPB).
+FT                                /FTId=VAR_015290.
+FT   VARIANT     436    436       S -> R (in NPB).
+FT                                /FTId=VAR_005065.
+FT   VARIANT     446    446       Y -> C (in NPA).
+FT                                /FTId=VAR_011388.
+FT   VARIANT     463    463       F -> S (in NPA).
+FT                                /FTId=VAR_015291.
+FT   VARIANT     475    475       P -> L (in NPA).
+FT                                /FTId=VAR_015292.
+FT   VARIANT     496    496       R -> L (in NPA; in 32% of NPA Ashkenazi
+FT                                Jewish patients).
+FT                                /FTId=VAR_005066.
+FT   VARIANT     537    537       Y -> H (in NPA).
+FT                                /FTId=VAR_015293.
+FT   VARIANT     577    577       G -> S (in NPA).
+FT                                /FTId=VAR_005067.
+FT   VARIANT     608    608       Missing (in NPB; prevalent among NPB
+FT                                patients from the North-African Maghreb
+FT                                region).
+FT                                /FTId=VAR_005068.
+FT   CONFLICT     35     36       Missing (in Ref. 4).
+FT   CONFLICT     36     36       V -> A (in Ref. 3).
+FT   CONFLICT    322    322       T -> I (in Ref. 1).
+FT   CONFLICT    506    506       R -> G (in Ref. 3 and 4).
+SQ   SEQUENCE   629 AA;  69851 MW;  C994FCB1458942AC CRC64;
+     MPRYGASLRQ SCPRSGREQG QDGTAGAPGL LWMGLVLALA LALALALSDS RVLWAPAEAH
+     PLSPQGHPAR LHRIVPRLRD VFGWGNLTCP ICKGLFTAIN LGLKKEPNVA RVGSVAIKLC
+     NLLKIAPPAV CQSIVHLFED DMVEVWRRSV LSPSEACGLL LGSTCGHWDI FSSWNISLPT
+     VPKPPPKPPS PPAPGAPVSR ILFLTDLHWD HDYLEGTDPD CADPLCCRRG SGLPPASRPG
+     AGYWGEYSKC DLPLRTLESL LSGLGPAGPF DMVYWTGDIP AHDVWHQTRQ DQLRALTTVT
+     ALVRKFLGPV PVYPAVGNHE STPVNSFPPP FIEGNHSSRW LYEAMAKAWE PWLPAEALRT
+     LRIGGFYALS PYPGLRLISL NMNFCSRENF WLLINSTDPA GQLQWLVGEL QAAEDRGDKV
+     HIIGHIPPGH CLKSWSWNYY RIVARYENTL AAQFFGHTHV DEFEVFYDEE TLSRPLAVAF
+     LAPSATTYIG LNPGYRVYQI DGNYSRSSHV VLDHETYILN LTQANIPGAI PHWQLLYRAR
+     ETYGLPNTLP TAWHNLVYRM RGDMQLFQTF WFLYHKGHPP SEPCGTPCRL ATLCAQLSAR
+     ADSPALCRHL MPDGSLPEAQ SLWPRPLFC
+//
