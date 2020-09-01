@@ -1,0 +1,96 @@
+LOCUS       SEH5819                 1648 bp    DNA     linear   ROD 29-MAR-1999
+DEFINITION  Spalax ehrenbergi gene encoding growth hormone.
+ACCESSION   AJ005819
+VERSION     AJ005819.1  GI:3116088
+KEYWORDS    growth hormone; somatotropin.
+SOURCE      Nannospalax ehrenbergi (Ehrenberg's mole-rat)
+  ORGANISM  Nannospalax ehrenbergi
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Rodentia; Sciurognathi; Muridae; Spalacinae;
+            Nannospalax.
+REFERENCE   1
+  AUTHORS   Lioupis,A., Nevo,E. and Wallis,M.
+  TITLE     Cloning and characterisation of the gene encoding mole rat (Spalax
+            ehrenbergi) growth hormone
+  JOURNAL   J. Mol. Endocrinol. 22 (1), 29-36 (1999)
+  MEDLINE   99124645
+   PUBMED   9924177
+REFERENCE   2  (bases 1 to 1648)
+  AUTHORS   Lioupis,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-APR-1998) Lioupis A., Biochemistry Laboratory, School
+            of Biological Sciences, University of Sussex, Brighton, East
+            Sussex, BN1 9QG, UK
+FEATURES             Location/Qualifiers
+     source          1..1648
+                     /organism="Nannospalax ehrenbergi"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:30637"
+                     /sex="male"
+                     /note="chromosomal species 2n=60"
+     mRNA            join(82..154,357..517,712..828,965..1126,1373..>1648)
+     exon            82..154
+                     /number=1
+     CDS             join(145..154,357..517,712..828,965..1126,1373..1573)
+                     /codon_start=1
+                     /product="growth hormone"
+                     /protein_id="CAA06716.1"
+                     /db_xref="GI:3116089"
+                     /db_xref="GOA:O70615"
+                     /db_xref="SPTREMBL:O70615"
+                     /translation="MATGSQTSWLLTFTLLCLPWPQEAGAFPAMPLSNLFANAVLRAQ
+                     HLHQLAADTYKEFERAYIPEGQRYSIQNAQAAFCFSETIPAPTGKEEAQQRSDMELLR
+                     FSLLLIQSWLGPVQFLSRVFTNSLVFGTSDRVFEKLKDLEEGIQALMRELEDGSLRAG
+                     QLLKQTYDKFDTNMRSDDALLKNYGLLSCFKKDLHKAETYLRVMKCRRFVESSCAF"
+     sig_peptide     join(145..154,357..424)
+     mat_peptide     join(425..517,712..828,965..1126,1373..1570)
+                     /product="growth hormone"
+     intron          155..356
+                     /number=1
+     exon            357..517
+                     /number=2
+     intron          518..711
+                     /number=2
+     exon            712..828
+                     /number=3
+     intron          829..964
+                     /number=3
+     exon            965..1126
+                     /number=4
+     variation       1090
+                     /note="silent allelic polymorphism"
+                     /replace="t"
+     intron          1127..1372
+                     /number=4
+     exon            1373..1648
+                     /number=5
+ORIGIN      
+        1 gtcccatgaa tacatgtatg gggaaaatag gcagggggag aaccagccag ggtataaaaa
+       61 gggcccacaa aggaccaact ccaggatcct aggacccaga tctccaaact gctcaggatc
+      121 ctgtggacag ctcattccat gacaatggct acaggtgagc atccctaaaa tctctttggg
+      181 tgtgatgtgg accgagagga gatgtacgag ttgaagatgg gtttgaggtt tctgatatga
+      241 atacagccat ctaagcccaa cctttgccca tgttgagaac attctcagtt cctatgggga
+      301 ttgggagaga ctgaccactg ctctcaggct tcccctgcct ccctgtcttt ctctaggctc
+      361 tcagacctcc tggctcctga ccttcaccct gctctgcctg ccctggcctc aggaggctgg
+      421 tgccttccct gccatgccct tgtccaatct gtttgccaac gctgtgctcc gagcccagca
+      481 cctgcatcaa ctggctgctg atacctacaa agagtttgta agctccccaa agttgggtat
+      541 ctggctgtgg tgagaggaag gggcagattc ccccctgaga cgtcatggga ggaaactcag
+      601 gggaccaggg gtgtcttaaa caagtaaatg ctgtcaggtg agcagaaatc aagggagtct
+      661 tcaaccaggt agtgatgaca gtctcagatc tcaacaactg tgctcctcta ggaacgtgcc
+      721 tacatccccg agggacagcg atattccatc cagaacgccc aggctgcctt ctgcttctca
+      781 gagaccatcc cggcccccac cggcaaggag gaggcccagc agagatccgt gagtggactc
+      841 cgaggctttg tccacataca tcttttttcc ctccataaag ctccaactgt accccaggcc
+      901 aggagccagc ttctccccag gcagagctca gcaggcaaca cacttactta acccttcctc
+      961 acaggacatg gagctgctcc gcttctctct cctgctcatc cagtcgtggc tggggcccgt
+     1021 gcagttcctc agcagggtct tcaccaacag cctggtattc ggcacctcgg accgcgtctt
+     1081 tgagaaactg aaggacctgg aagaggggat ccaggctttg atgcgggtga gcatggcatg
+     1141 gtgtccccag tcccggggcc atactgccct ttgcctctgt ctggatccta gctgggagct
+     1201 ggtgtgaggg gtggatgact gctgtttctt gtactagtca ggccttgacc catgacaagt
+     1261 catcttattt atttcccctt ttgaagctcc agcctttctc taagtcctgg aggagaggga
+     1321 gggcagaaat cctaaaacgc ctctgcttct cctgctcctc cttccactgc aggagctgga
+     1381 agatggcagt ctccgagctg ggcaactcct caagcaaacc tatgacaagt ttgacaccaa
+     1441 catgcgcagc gatgacgcac tgctcaagaa ctatgggctg ctctcctgct tcaagaagga
+     1501 cctgcacaag gctgagacct acctgcgggt catgaagtgt cgccgctttg tggaaagcag
+     1561 ctgtgccttc tagccacaca gtaccgtatc tccatactcc cccagcacct ccctgtggca
+     1621 aatgccactc ccgtgcaagc atccttgt
+//

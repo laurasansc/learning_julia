@@ -1,0 +1,77 @@
+LOCUS       SSBGLOB4                1312 bp    DNA     linear   VRT 15-JUL-1996
+DEFINITION  S.salar gene encoding beta-globin, clone 4.
+ACCESSION   X97287
+VERSION     X97287.1  GI:1431607
+KEYWORDS    beta globin.
+SOURCE      Salmo salar (Atlantic salmon)
+  ORGANISM  Salmo salar
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Euteleostei;
+            Protacanthopterygii; Salmoniformes; Salmonidae; Salmo.
+REFERENCE   1
+  AUTHORS   McMorrow,T., Wagner,A., Deryckere,F. and Gannon,F.
+  TITLE     Structural organization and sequence analysis of the globin locus
+            in Atlantic salmon
+  JOURNAL   DNA Cell Biol. 15 (5), 407-414 (1996)
+  MEDLINE   96211166
+   PUBMED   8924215
+REFERENCE   2  (bases 1 to 1312)
+  AUTHORS   McMorrow,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-APR-1996) T. McMorrow, Erasmus University, Department
+            of Cell Biology and Genetics, P.O. Box 1738, 3000 DR Rotterdam,
+            NETHERLANDS
+FEATURES             Location/Qualifiers
+     source          1..1312
+                     /organism="Salmo salar"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:8030"
+                     /clone="4"
+                     /clone_lib="Salmon genomic bank"
+                     /dev_stage="adult"
+     CAAT_signal     76..80
+     TATA_signal     113..118
+     CDS             join(203..295,522..743,877..1005)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="CAA65950.1"
+                     /db_xref="GI:1431608"
+                     /db_xref="GOA:Q91471"
+                     /db_xref="SPTREMBL:Q91471"
+                     /translation="MADWTDAEKSTISAVWGKVDINEVGPLALARVLIVYPWTQRYFG
+                     SFGDVSTPAAIMGNPKVAAHGKVVCGALDKAVKNMGNILATYKSLSETHANKLFVDPE
+                     NFRVLADVLTIVIAAKFGASFTPEIQATWQKFMKVVVAAMGSRYF"
+     exon            <203..295
+                     /number=1
+     intron          296..521
+                     /number=1
+     exon            522..743
+                     /number=2
+     intron          744..876
+                     /number=2
+     exon            877..>1005
+                     /number=3
+ORIGIN      
+        1 ggaattctca ataacatcaa gtacaagagg tgaagcgctc atgaaacacc tggccaatac
+       61 tgatcttttc cagagccaat cacatgcgcg cctccagtgg gcggagtgca ctcataaata
+      121 taagttgcag acaaagtgtc tccctacaca atacattaat ttgtttatct tgttgcaaaa
+      181 cctgaaaaca aacactgaca acatggctga ctggacagac gctgagaaga gcaccatcag
+      241 tgctgtctgg ggcaaagtag atatcaatga ggtcggacca ctggctctgg caaggtaggt
+      301 catggcttca gctcattcaa atatattatc taaaatagtt tatagtggag atgatcatga
+      361 gtaattataa cactattata cttgtcctgt tatcttatta ctgttaatat tgagttgata
+      421 ttgttaagtt tgaatggagc atgttagagt attaactagg gcatatcatt gaaatacatt
+      481 tgaaaataat ccacatattt cggtgttctt gcaataacag agtcctgatc gtctacccct
+      541 ggactcagcg ttatttcggc tctttcggag atgtgtccac tcccgcagca atcatgggca
+      601 accccaaagt tgctgctcac ggcaaggtcg tgtgtggagc tctggataaa gctgtgaaga
+      661 acatgggcaa catcttggcc acatacaagt cactgagcga gacccacgcc aacaaactct
+      721 tcgtcgaccc tgaaaatttc agggtaggcc cttttgtctt gcgcaatatg ttttaggcta
+      781 cacatataac attcagaaca acatgtctaa ttccaaaggt taaacaaaac cgtcagctct
+      841 tatttaacat cttcctcctt tgtcttttgt ccacaggtgt tggctgacgt cctcacaatt
+      901 gtcattgccg ccaagttcgg agcctctttc actcctgaaa tccaggcaac ctggcagaag
+      961 ttcatgaaag tggttgtcgc agccatgggc agtcggtact tctaaatgca ccccagacaa
+     1021 gtgattctgt tctgacatcc ctgcctgagt gaaaataaag acatcgaaac aaaccattgt
+     1081 atttgtattt ataccatttt ttttttaata ggggggcagg gacagttcca ccacaaaatt
+     1141 cttaacatca atatttaggt aatatagaga tgggcattga ccgatgggga acggatggtt
+     1201 tagggtcatg gactattgtg tgaatgaagg gcggctgcac tgtaaaccat attagttatc
+     1261 attactctac agtcttgtgg aacccgctgc actagtattc tagagtgaat tc
+//
