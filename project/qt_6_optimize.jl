@@ -13,7 +13,7 @@ end
 
 function get_euclidean_dist(vector_1::Array, vector_2::Array)
 	# Calculate simple euclidean distance between two vectors
-	return sqrt(sum((vector_1 - vector_2).^2))
+	return sqrt(sum((vector_1 - vector_2).*(vector_1 - vector_2)))
 end
 
 #------------------------------------------------------------------------------------------
@@ -42,36 +42,49 @@ function read_file(filename::String)
 		push!(coordinates, rows)
 
 	end
-
-	distance_matrix = calculate_distance_matrix(coordinates)
-
 	close(infile)
+	#distance_matrix = calculate_distance_matrix(coordinates)
+	
+	distance_matrix = zeros(Float64, length(coordinates), length(coordinates))
+
+	# fill distance matrix
+	for i in 1:length(coordinates)
+		for j in 1:length(coordinates)
+			if i != j || i > j 
+				# calculate each point to point distance
+				distance = get_euclidean_dist(coordinates[i], coordinates[j])
+				distance_matrix[i,j] = distance
+				distance_matrix[j,i] = distance
+			end
+		end
+	end	
+	
 	
 	return data_lines, distance_matrix
 end
 
 function get_threshold(qt::String, distance_matrix::Array{Float64,2})
-	sample_diameter = maximum(distance_matrix)
+	
 	# Define the threshold
 	if occursin("%", qt) == true
-		threshold = sample_diameter * parse(Float64,qt[1:end-1]) / 100
+		return maximum(distance_matrix) * parse(Float64,qt[1:end-1]) / 100
 	else
-		threshold = parse(Float64,qt)
+		return parse(Float64,qt)
 	end
-	return threshold
+
 end
 
 function calculate_distance_matrix(coordinates::Array)
 	# from coordinates construct a distance matrix
 	# get matrix dimensions
-	rows = length(coordinates)
+	#rows = length(coordinates)
 
 	# distance matrix of zeros
-	distance_matrix = zeros(Float64, rows, rows)
+	distance_matrix = zeros(Float64, length(coordinates), length(coordinates))
 
 	# fill distance matrix
-	for i in 1:rows
-		for j in 1:rows
+	for i in 1:length(coordinates)
+		for j in 1:length(coordinates)
 			if i != j || i > j 
 				# calculate each point to point distance
 				distance = get_euclidean_dist(coordinates[i], coordinates[j])
@@ -91,10 +104,10 @@ function get_candidates(distance_matrix::Array{Float64,2}, threshold::Float64, p
 	# are distance < threshold to the centroid point
 	candidate_points = Vector{}()
 	
-	for i = 1:length(points)
+	 for i = 1:length(points)
 		row = []
 		#push!(row, i)
-		for j = 1:length(points)
+		 for j = 1:length(points)
 			if i != j && distance_matrix[i,j] < threshold
 				push!(row, j)
 			end	
@@ -106,19 +119,16 @@ end
 
 
 function calculate_candidate_cluster(origin::Int64, candidate_points::Array{Any,1}, threshold::Float64, distance_matrix::Array{Float64,2}, check_cluster_dict, output_cluster, output_cluster_diameter)
-
-	# Fibonnacci list
-	fib = [2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765]
-		
-	
+	fib = [2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 15000]
 	candidate_points_2 = deepcopy(candidate_points)
-	candidate_cluster = []
+	candidate_cluster = Vector{}()
 
 	push!(candidate_cluster, origin)
 	
 	# Now get the distance from the centroid point to other points from the candidate_cluster
 	neighbor_distance = distance_matrix[candidate_cluster[1], candidate_points_2]
 	cluster_diameter = 0.0
+	#counter
 	
 	while isempty(candidate_points_2) == false
 
@@ -130,7 +140,6 @@ function calculate_candidate_cluster(origin::Int64, candidate_points::Array{Any,
 		popat!(neighbor_distance, nearest_neighbor)
 
 		for i in length(neighbor_distance):-1:1
-
 			selected_distance = neighbor_distance[i]
 
 			if selected_distance < distance_matrix[candidate_cluster[end],candidate_points_2[i]]
@@ -144,7 +153,8 @@ function calculate_candidate_cluster(origin::Int64, candidate_points::Array{Any,
 		end
 
 		# Check if cluster already exists
-		if length(candidate_cluster) ∈ fib #&& false
+		if length(candidate_cluster) ∈ fib
+		#if fib[1] == counter  #&& false
 			# counter how many points i have added next one in fibonnacci - 
 			# Create a unique key
 			key = sort(candidate_cluster)
@@ -152,7 +162,9 @@ function calculate_candidate_cluster(origin::Int64, candidate_points::Array{Any,
 				return output_cluster[check_cluster_dict[key]], output_cluster_diameter[check_cluster_dict[key]]
 			end
 			check_cluster_dict[key] = origin
+			popfirst!(fib)
 		end
+		#counter += 1
 	end
 	return candidate_cluster, cluster_diameter
 end
@@ -212,12 +224,12 @@ end
 function recalculate_candidate_points(points::Array{Int64,1}, candidate_points::Array{Any,1}, index_top_cluster::Int64, output_cluster::Array{Array{Int64,1},1})
 	# Get points that are QT distance from top_cluster points
 	aggregate = Set()
-	
+
 	for point in output_cluster[index_top_cluster]
-		union!(aggregate, Set(candidate_points[point]))
+		union!(aggregate, BitSet(candidate_points[point]))
 	end
-	
-	aggregate = setdiff(aggregate, Set(output_cluster[index_top_cluster]))
+
+	aggregate = setdiff(aggregate, BitSet(output_cluster[index_top_cluster]))
 
 	for point in aggregate
 		output_cluster[point] = Vector{Array{Int64}}()
@@ -232,17 +244,17 @@ function recalculate_candidate_points(points::Array{Int64,1}, candidate_points::
 	
 end
 
-function print_to_file(output_file::IOStream, top_cluster::Array{Int64,1}, data_lines::Array{String,1}, top_diameter::Float64, counter::Int64)
-	println(output_file, "-> Cluster $counter  Diameter:  $top_diameter")
+function print_to_file(output_file::IOStream, top_cluster::Array{Int64,1}, data_lines::Array{String,1},counter::Int64)
+	println(output_file, "-> Cluster ", counter)
 	for points in sort(top_cluster)
 		line =  data_lines[points]
-		println(output_file, "$line")
+		println(output_file, line)
 	end
 end
 
 function QT(filename::String, qt::String)
 	# Read file
-	data_lines, distance_matrix = read_file(filename)
+	@time data_lines, distance_matrix = read_file(filename)
 
 	# Get threshold, qt * max dis / 100
 	threshold = get_threshold(qt, distance_matrix)
@@ -267,18 +279,18 @@ function QT(filename::String, qt::String)
 
 	while isempty(points) == false
 		
-		qt_clustering(distance_matrix, threshold, candidate_points, points, output_cluster, output_cluster_diameter)
+		@time qt_clustering(distance_matrix, threshold, candidate_points, points, output_cluster, output_cluster_diameter)
 		
 		index_top_cluster = get_top_cluster(points, output_cluster, output_cluster_diameter)
 
 		update_points(points, output_cluster[index_top_cluster])
 
-		recalculate_candidate_points(points, candidate_points, index_top_cluster, output_cluster)
+		@time recalculate_candidate_points(points, candidate_points, index_top_cluster, output_cluster)
 
 		counter += 1
 		#println(output_cluster[index_top_cluster])
 		# avoid 2 for loops in print_to_file while printing by creating top clusters
-		print_to_file(output_file, output_cluster[index_top_cluster], data_lines, round(output_cluster_diameter[index_top_cluster], digits=5), counter)
+		print_to_file(output_file, output_cluster[index_top_cluster], data_lines, counter)
 	end
 	close(output_file)
 end
@@ -292,10 +304,9 @@ function __main__()
 	command_line_length = length(ARGS)
 
 	if command_line_length == 2
-		filename = ARGS[1]
-		qt = ARGS[2]
-
-		@time QT(filename, qt)
+		#filename = ARGS[1]
+		#qt = ARGS[2]
+		@time QT(ARGS[1], ARGS[2])
 	elseif command_line_length == 1
 		if ARGS[1] == "-h" || ARGS[1] == "--help"
 			println("HELP (-h --help)\nqt.jl <input file> <threshold>\n\tThreshold: INT or INT%")
