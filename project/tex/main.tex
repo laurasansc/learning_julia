@@ -1,0 +1,97 @@
+% Initialize packages
+\documentclass[twocolumn]{article}
+\setlength{\columnsep}{15}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{footmisc}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{gensymb}
+\usepackage{lastpage}
+\usepackage{emptypage}
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage{etoolbox}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{wrapfig}
+\usepackage{fancyvrb}
+\usepackage{mathrsfs}
+\usepackage{titlesec}
+% use listings
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=1pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+% set listing style
+%\lstset{style=mystyle}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    citecolor=black,
+    linkcolor=black,
+    linktocpage=false,
+    hyperindex = false,
+    anchorcolor=black,
+    filecolor=black,
+    frenchlinks=false
+}
+
+% Fonts 
+\renewcommand{\familydefault}{\sfdefault} % Use sans-serif
+\usepackage{lmodern} % Different font
+
+% Margins
+\usepackage{geometry}
+\geometry{a4paper, top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm} 
+\renewcommand{\baselinestretch}{1.15}
+
+% Headers & Footers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Special Course}
+\fancyhead[RE,LO]{Julia For Bioinformaticians}
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+% Begin document with front page and main
+\begin{document}
+
+
+\input{text/00_Frontpage.tex}
+\newpage
+\input{text/01_content.tex}
+
+{\footnotesize
+\bibliography{biblio}}
+\bibliographystyle{ieeetr}
+\label{LastPage2} 
+\end{document}
